@@ -1,10 +1,61 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <title>Weon G. Kim</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="src/contact.js"></script>
     <link rel="stylesheet" type="text/css" href="stylesheets/contact.css">
   </head>
   <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+         <div class="container-fluid">
+            <div class="navbar-header">
+               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>                        
+               </button>
+               <a class="navbar-brand" href="#">Weon G. Kim</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+               <ul class="nav navbar-nav">
+                  <li><a href="index.html">Attorney</a></li>
+                  <li class="dropdown">
+                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Attorney & Filing Fees <span class="caret"></span></a>
+                     <ul class="dropdown-menu">
+                        <li><a href="#chapter7"> Chapter 7 </a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#chapter13"> Chapter 13</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#familybasedgreencard"> Family Based Green Card</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#nonimmigrantvisa"> Non-immigrant Visa</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#employmentbasedgreencard"> Employment Based Green Card</a></li>
+                     </ul>
+                  </li>
+                  <li><a href="#">Legal Issues</a></li>
+                  <li class="dropdown">
+                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Other Practice Areas <span class="caret"></span></a>
+                     <ul class="dropdown-menu">
+                        <li><a href="#simplewill"> Simple Will -- VA & MD </a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#uncontesteddivorceva"> Uncontested Divorce -- VA </a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#uncontesteddivorcemd"> Uncontested Divorce -- MD </a></li>
+                     </ul>
+                  </li>
+               </ul>
+               <ul class="nav navbar-nav navbar-right">
+                  <li><a href="contact.html">Contact</a></li>
+               </ul>
+            </div>
+         </div>
+      </nav>
     <h2> CONTACT US </h2>
     <div id="map"></div>
     <script>
@@ -23,16 +74,20 @@
     <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA59zGWOtyvYAUhwxmnjwF3GZQoxcvynF8&callback=initMap">
     </script>
-    <p>
-    	<b>
-    		Office Address: 
-    		8200 Greensboro Drive, Suite #900,  
-    		McLean, VA 22102 
-        <a href="https://www.google.com/maps/dir//8200+Greensboro+Dr,+McLean,+VA+22102/@38.9231844,-77.2306086,17z/data=!4m16!1m7!3m6!1s0x89b64aede5428ac9:0x5f74850383ac9306!2s8200+Greensboro+Dr,+McLean,+VA+22102!3b1!8m2!3d38.9231844!4d-77.2284199!4m7!1m0!1m5!1m1!1s0x89b64aede5428ac9:0x5f74850383ac9306!2m2!1d-77.2284199!2d38.9231844"> Get Directions</a> <br> 
-    	</b>
-    </p> 
-    <p>
-      Email: jkkchadol99 [at] gmail [dot] com 
-    </p>
+    <div id="contactInfo">
+      <p>
+        <b>
+      		Office Address: 
+      		8200 Greensboro Drive, Suite #900,  
+      		McLean, VA 22102 
+          <a href="https://www.google.com/maps/dir//8200+Greensboro+Dr,+McLean,+VA+22102/@38.9231844,-77.2306086,17z/data=!4m16!1m7!3m6!1s0x89b64aede5428ac9:0x5f74850383ac9306!2s8200+Greensboro+Dr,+McLean,+VA+22102!3b1!8m2!3d38.9231844!4d-77.2284199!4m7!1m0!1m5!1m1!1s0x89b64aede5428ac9:0x5f74850383ac9306!2m2!1d-77.2284199!2d38.9231844"> Get Directions</a> <br> 
+        </b>
+      </p> 
+      <p>
+        <b>
+          Email: jkkchadol99 [at] gmail [dot] com 
+        </b>
+      </p>
+    </div>
   </body>
 </html>

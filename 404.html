@@ -35,7 +35,7 @@
             <li class="nav-item">
               <a class="nav-link" href="services.html">Services</a>
             </li>
-            <li class="nav-item active">
+            <li class="nav-item">
               <a class="nav-link" href="contact.html">Contact</a>
             </li>
             <li class="nav-item dropdown">
@@ -60,7 +60,7 @@
                 <a class="dropdown-item" href="blog-post.html">Blog Post</a>
               </div>
             </li>
-            <li class="nav-item dropdown">
+            <li class="nav-item active dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Other Pages
               </a>
@@ -68,7 +68,7 @@
                 <a class="dropdown-item" href="full-width.html">Full Width Page</a>
                 <a class="dropdown-item" href="sidebar.html">Sidebar Page</a>
                 <a class="dropdown-item" href="faq.html">FAQ</a>
-                <a class="dropdown-item" href="404.html">404</a>
+                <a class="dropdown-item active" href="404.html">404</a>
                 <a class="dropdown-item" href="pricing.html">Pricing Table</a>
               </div>
             </li>
@@ -81,62 +81,87 @@
     <div class="container">
 
       <!-- Page Heading/Breadcrumbs -->
-      <h1 class="mt-4 mb-3">Contact
-        <small>Subheading</small>
+      <h1 class="mt-4 mb-3">404
+        <small>Page Not Found</small>
       </h1>
 
       <ol class="breadcrumb">
         <li class="breadcrumb-item">
           <a href="index.html">Home</a>
         </li>
-        <li class="breadcrumb-item active">Contact</li>
+        <li class="breadcrumb-item active">404</li>
       </ol>
 
-      <!-- Content Row -->
-      <div class="row">
-        <!-- Map Column -->
-        <div id="map" class="col-lg-8 mb-4">
-          <!-- Embedded Google Map -->
-          <script>
-            function initMap() {
-              var office = {lat: 38.923188, lng: -77.228411};
-              var map = new google.maps.Map(document.getElementById('map'), {
-                zoom: 17,
-                center: office
-              });
-              var marker = new google.maps.Marker({
-                position: office,
-                map: map
-              });
-            }
-          </script>
-          <script async defer
-          src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA59zGWOtyvYAUhwxmnjwF3GZQoxcvynF8&callback=initMap">
-          </script>
-        </div>
-        <!-- Contact Details Column -->
-        <div class="col-lg-4 mb-4">
-          <h3>Contact Details</h3>
-          <p>
-            8200 Greensboro Drive, Suite #900
-            <br>McLean, VA 22101
-            <br>
-          </p>
-          <p>
-            <a href="https://www.google.com/maps/dir//8200+Greensboro+Dr,+McLean,+VA+22102/@38.9231844,-77.2306086,17z/data=!4m16!1m7!3m6!1s0x89b64aede5428ac9:0x5f74850383ac9306!2s8200+Greensboro+Dr,+McLean,+VA+22102!3b1!8m2!3d38.9231844!4d-77.2284199!4m7!1m0!1m5!1m1!1s0x89b64aede5428ac9:0x5f74850383ac9306!2m2!1d-77.2284199!2d38.9231844"> Get Directions</a> <br>  
-          </p>
-          <p>
-            (123) 456-7890
-          </p>
-          <p>
-            WKIM7577 [at] GMAIL [dot] COM
-          </p>
-          <p>
-            <abbr title="Hours">H</abbr>: Monday - Friday: 9:00 AM to 5:00 PM
-          </p>
-        </div>
+      <div class="jumbotron">
+        <h1 class="display-1">404</h1>
+        <p>The page you're looking for could not be found. Here are some helpful links to get you back on track:</p>
+        <ul>
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="about.html">About</a>
+          </li>
+          <li>
+            <a href="services.html">Services</a>
+          </li>
+          <li>
+            <a href="contact.html">Contact</a>
+          </li>
+          <li>
+            Portfolio
+            <ul>
+              <li>
+                <a href="portfolio-1-col.html">1 Column Portfolio</a>
+              </li>
+              <li>
+                <a href="portfolio-2-col.html">2 Column Portfolio</a>
+              </li>
+              <li>
+                <a href="portfolio-3-col.html">3 Column Portfolio</a>
+              </li>
+              <li>
+                <a href="portfolio-4-col.html">4 Column Portfolio</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            Blog
+            <ul>
+              <li>
+                <a href="blog-home-1.html">Blog Home 1</a>
+              </li>
+              <li>
+                <a href="blog-home-2.html">Blog Home 2</a>
+              </li>
+              <li>
+                <a href="blog-post.html">Blog Post</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            Other Pages
+            <ul>
+              <li>
+                <a href="full-width-page.html">Full Width Page</a>
+              </li>
+              <li>
+                <a href="sidebar.html">Sidebar Page</a>
+              </li>
+              <li>
+                <a href="faq.html">FAQ</a>
+              </li>
+              <li>
+                <a href="404.html">404 Page</a>
+              </li>
+              <li>
+                <a href="pricing-table.html">Pricing Table</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
       </div>
-      <!-- /.row -->
+      <!-- /.jumbotron -->
 
     </div>
     <!-- /.container -->
@@ -153,11 +178,6 @@
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/popper/popper.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-
-    <!-- Contact form JavaScript -->
-    <!-- Do not edit these files! In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
 
   </body>
 

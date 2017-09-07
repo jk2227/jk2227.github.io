@@ -29,13 +29,13 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
+            <li class="nav-item active">
               <a class="nav-link" href="about.html">About</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="services.html">Services</a>
             </li>
-            <li class="nav-item active">
+            <li class="nav-item">
               <a class="nav-link" href="contact.html">Contact</a>
             </li>
             <li class="nav-item dropdown">
@@ -81,7 +81,7 @@
     <div class="container">
 
       <!-- Page Heading/Breadcrumbs -->
-      <h1 class="mt-4 mb-3">Contact
+      <h1 class="mt-4 mb-3">About
         <small>Subheading</small>
       </h1>
 
@@ -89,51 +89,89 @@
         <li class="breadcrumb-item">
           <a href="index.html">Home</a>
         </li>
-        <li class="breadcrumb-item active">Contact</li>
+        <li class="breadcrumb-item active">About</li>
       </ol>
 
-      <!-- Content Row -->
+      <!-- Intro Content -->
       <div class="row">
-        <!-- Map Column -->
-        <div id="map" class="col-lg-8 mb-4">
-          <!-- Embedded Google Map -->
-          <script>
-            function initMap() {
-              var office = {lat: 38.923188, lng: -77.228411};
-              var map = new google.maps.Map(document.getElementById('map'), {
-                zoom: 17,
-                center: office
-              });
-              var marker = new google.maps.Marker({
-                position: office,
-                map: map
-              });
-            }
-          </script>
-          <script async defer
-          src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA59zGWOtyvYAUhwxmnjwF3GZQoxcvynF8&callback=initMap">
-          </script>
+        <div class="col-lg-6">
+          <img class="img-fluid rounded mb-4" src="http://placehold.it/750x450" alt="">
         </div>
-        <!-- Contact Details Column -->
+        <div class="col-lg-6">
+          <h2>About Modern Business</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed voluptate nihil eum consectetur similique? Consectetur, quod, incidunt, harum nisi dolores delectus reprehenderit voluptatem perferendis dicta dolorem non blanditiis ex fugiat.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, magni, aperiam vitae illum voluptatum aut sequi impedit non velit ab ea pariatur sint quidem corporis eveniet. Odit, temporibus reprehenderit dolorum!</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, consequuntur, modi mollitia corporis ipsa voluptate corrupti eum ratione ex ea praesentium quibusdam? Aut, in eum facere corrupti necessitatibus perspiciatis quis?</p>
+        </div>
+      </div>
+      <!-- /.row -->
+
+      <!-- Team Members -->
+      <h2>Our Team</h2>
+
+      <div class="row">
         <div class="col-lg-4 mb-4">
-          <h3>Contact Details</h3>
-          <p>
-            8200 Greensboro Drive, Suite #900
-            <br>McLean, VA 22101
-            <br>
-          </p>
-          <p>
-            <a href="https://www.google.com/maps/dir//8200+Greensboro+Dr,+McLean,+VA+22102/@38.9231844,-77.2306086,17z/data=!4m16!1m7!3m6!1s0x89b64aede5428ac9:0x5f74850383ac9306!2s8200+Greensboro+Dr,+McLean,+VA+22102!3b1!8m2!3d38.9231844!4d-77.2284199!4m7!1m0!1m5!1m1!1s0x89b64aede5428ac9:0x5f74850383ac9306!2m2!1d-77.2284199!2d38.9231844"> Get Directions</a> <br>  
-          </p>
-          <p>
-            (123) 456-7890
-          </p>
-          <p>
-            WKIM7577 [at] GMAIL [dot] COM
-          </p>
-          <p>
-            <abbr title="Hours">H</abbr>: Monday - Friday: 9:00 AM to 5:00 PM
-          </p>
+          <div class="card h-100 text-center">
+            <img class="card-img-top" src="http://placehold.it/750x450" alt="">
+            <div class="card-body">
+              <h4 class="card-title">Team Member</h4>
+              <h6 class="card-subtitle mb-2 text-muted">Position</h6>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus aut mollitia eum ipsum fugiat odio officiis odit.</p>
+            </div>
+            <div class="card-footer">
+              <a href="#">name@example.com</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-4">
+          <div class="card h-100 text-center">
+            <img class="card-img-top" src="http://placehold.it/750x450" alt="">
+            <div class="card-body">
+              <h4 class="card-title">Team Member</h4>
+              <h6 class="card-subtitle mb-2 text-muted">Position</h6>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus aut mollitia eum ipsum fugiat odio officiis odit.</p>
+            </div>
+            <div class="card-footer">
+              <a href="#">name@example.com</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-4">
+          <div class="card h-100 text-center">
+            <img class="card-img-top" src="http://placehold.it/750x450" alt="">
+            <div class="card-body">
+              <h4 class="card-title">Team Member</h4>
+              <h6 class="card-subtitle mb-2 text-muted">Position</h6>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus aut mollitia eum ipsum fugiat odio officiis odit.</p>
+            </div>
+            <div class="card-footer">
+              <a href="#">name@example.com</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /.row -->
+
+      <!-- Our Customers -->
+      <h2>Our Customers</h2>
+      <div class="row">
+        <div class="col-lg-2 col-sm-4 mb-4">
+          <img class="img-fluid" src="http://placehold.it/500x300" alt="">
+        </div>
+        <div class="col-lg-2 col-sm-4 mb-4">
+          <img class="img-fluid" src="http://placehold.it/500x300" alt="">
+        </div>
+        <div class="col-lg-2 col-sm-4 mb-4">
+          <img class="img-fluid" src="http://placehold.it/500x300" alt="">
+        </div>
+        <div class="col-lg-2 col-sm-4 mb-4">
+          <img class="img-fluid" src="http://placehold.it/500x300" alt="">
+        </div>
+        <div class="col-lg-2 col-sm-4 mb-4">
+          <img class="img-fluid" src="http://placehold.it/500x300" alt="">
+        </div>
+        <div class="col-lg-2 col-sm-4 mb-4">
+          <img class="img-fluid" src="http://placehold.it/500x300" alt="">
         </div>
       </div>
       <!-- /.row -->
@@ -153,11 +191,6 @@
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/popper/popper.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-
-    <!-- Contact form JavaScript -->
-    <!-- Do not edit these files! In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
 
   </body>
 
